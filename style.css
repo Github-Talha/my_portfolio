@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #d2d2d2;
+}
+nav ul {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  margin: 0 50px 0 100px;
+  background-color: #191918;
+}
+nav ul .talha {
+  margin-right: auto;
+}
+.padding-left {
+  padding: 0 20px;
+}
+.border-left{
+    border-left: 2px solid black;
+}
