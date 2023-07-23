@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
 
 * {
+  max-width: 1920px;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -70,19 +71,230 @@ ul .nav-items li a {
   height: 600px;
   background-color: var(--border-color);
 }
-
-.about-me-section p{
+.about-me-section p {
   background-color: var(--border-color);
-  text-align: center;
   width: 60%;
   margin-top: 60px;
+  text-align: center;
 }
 .about-me-cards {
-  width: 1200px;
-  height: 500px;
+  width: 90vw;
+  height: 700px;
   position: relative;
-  bottom: -80px;
+  bottom: -55px;
   border: 0.5px solid var(--border-color);
   border-radius: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0 0 10px rgb(150, 148, 148);
+}
+.about-me-cards h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card .card-image {
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  margin: 20px 0;
+}
+.card-2,
+.card-2 .card-image img {
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-2 {
+  border-left: 0.5px solid rgb(38, 37, 37);
+}
+.card .card-image img {
+  width: 50px;
+}
+.card h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color);
+  margin-bottom: 5px;
+}
+
+/* work section style  */
+.work-section {
+  margin: 250px auto 0 auto;
+  width: 90vw;
+}
+.work-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.work-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border: 0.5px solid var(--border-color);
+}
+.work-card p {
+  color: var(--color);
+  width: 70%;
+  margin-bottom: 50px;
+  background-color: transparent;
+  visibility: hidden;
+}
+.work-card a {
+  background-color: transparent;
+}
+.work-card a i {
+  border: 2px solid var(--border-color);
   padding: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.work-card-1 {
+  background-image: url(./images/project-image-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-1 a {
+  visibility: hidden;
+}
+.work-card-1:hover {
+  background-image: none;
+}
+.work-card-1:hover a {
+  visibility: visible;
+}
+.work-card-1:hover p {
+  visibility: visible;
+}
+
+.work-card-2 {
+  background-image: url(./images/project-image-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-2 a {
+  visibility: hidden;
+}
+.work-card-2:hover {
+  background-image: none;
+}
+.work-card-2:hover a {
+  visibility: visible;
+}
+.work-card-2:hover p {
+  visibility: visible;
+}
+.work-card-3 {
+  background-image: url(./images/project-image-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-3 a {
+  visibility: hidden;
+}
+.work-card-3:hover {
+  background-image: none;
+}
+.work-card-3:hover a {
+  visibility: visible;
+}
+.work-card-3:hover p {
+  visibility: visible;
+}
+
+.work-card-4 {
+  background-image: url(./images/project-image-4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-4 a {
+  visibility: hidden;
+}
+.work-card-3:hover {
+  background-image: none;
+}
+.work-card-4:hover a {
+  visibility: visible;
+}
+.work-card-4:hover p {
+  visibility: visible;
+}
+
+.work-card-5 {
+  background-image: url(./images/project-image-5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-5 a {
+  visibility: hidden;
+}
+.work-card-5:hover {
+  background-image: none;
+}
+.work-card-5:hover a {
+  visibility: visible;
+}
+.work-card-5:hover p {
+  visibility: visible;
+}
+
+.work-card-6 {
+  background-image: url(./images/project-image-6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-card-6 a {
+  visibility: hidden;
+}
+.work-card-6:hover {
+  background-image: none;
+}
+.work-card-6:hover a {
+  visibility: visible;
+}
+.work-card-6:hover p {
+  visibility: visible;
+}
+
+/* footer section style  */
+.footer{
+  width: 100vw;
+  height: 600px;
+  background-color: var(--border-color);
+  margin-top: 100px;
+}
+.footer-logo , .footer-logo img{
+  background-color: transparent;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+}
+.footer-logo img {
+  margin-top: 150px;
 }
