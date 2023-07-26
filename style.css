@@ -38,7 +38,7 @@ ul .nav-items li a {
   font-weight: 300;
   color: var(--color);
 }
-ul .nav-items li a:hover{
+ul .nav-items li a:hover {
   background-color: var(--border-color);
   transition: 0.3s;
   color: var(--bg-color);
@@ -168,10 +168,10 @@ ul .nav-items li a:hover{
 .work-card a {
   background-color: transparent;
 }
-.work-card a i:hover{
+.work-card a i:hover {
   background-color: var(--border-color);
   transition: 0.3s;
-} 
+}
 .work-card a i {
   border: 2px solid var(--border-color);
   padding: 20px;
@@ -377,29 +377,36 @@ ul .nav-items li a:hover{
   }
 }
 @media screen and (max-width: 550px) {
+  .logo img {
+    width: 120px;
+    transition: 0.3s;
+  }
   .work-section {
     margin: 380px auto 0 auto;
   }
-  .work-section h1{
+  .work-section h1 {
     font-size: 32px;
   }
-  ul .nav-items{
+  ul .nav-items {
     display: unset;
+  }
+  ul .nav-items li a {
+    padding: 5px;
   }
   .character-image {
     margin-top: -30px;
   }
-  .hero-section h1{
+  .hero-section h1 {
     font-size: 32px;
   }
-  .hero-section p{
+  .hero-section p {
     font-size: 16px;
     padding: 0 20px;
   }
-  ul .nav-items li a{
+  ul .nav-items li a {
     font-size: 14px;
   }
-  .about-me-cards h1{
+  .about-me-cards h1 {
     font-size: 32px;
   }
   .footer-logo img {
