@@ -38,6 +38,11 @@ ul .nav-items li a {
   font-weight: 300;
   color: var(--color);
 }
+ul .nav-items li a:hover{
+  background-color: var(--border-color);
+  transition: 0.3s;
+  color: var(--bg-color);
+}
 /* hero section style  */
 .hero-section h1 {
   color: #110e0a;
@@ -154,6 +159,7 @@ ul .nav-items li a {
 }
 .work-card p {
   color: var(--color);
+  text-align: center;
   width: 70%;
   margin-bottom: 50px;
   background-color: transparent;
