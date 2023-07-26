@@ -162,6 +162,10 @@ ul .nav-items li a {
 .work-card a {
   background-color: transparent;
 }
+.work-card a i:hover{
+  background-color: var(--border-color);
+  transition: 0.3s;
+} 
 .work-card a i {
   border: 2px solid var(--border-color);
   padding: 20px;
@@ -241,6 +245,9 @@ ul .nav-items li a {
 }
 .work-card-4:hover p {
   visibility: visible;
+}
+.work-card-4:hover {
+  background-image: none;
 }
 
 .work-card-5 {
